@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "npx knex --no-warnings",
+    "knex": "npx knex",
     "lint": "eslint src --fix"
   },
   "keywords": [],

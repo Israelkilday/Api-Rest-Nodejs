@@ -1,5 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line
 import { Kenex } from "knex";
 declare module "kenex/types/tables" {
   export interface Tables {

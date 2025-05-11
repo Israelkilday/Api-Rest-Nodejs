@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "npx knex",
-    "lint": "eslint src --fix"
+    "lint": "eslint src --fix",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",

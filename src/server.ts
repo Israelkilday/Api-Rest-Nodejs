@@ -1,7 +1,5 @@
-import fastify from "fastify";
+import { app } from "./app";
 import { env } from "./env";
-import { transactionsRoutes } from "./routes/transactions";
-import cookie from "@fastify/cookie";
 
 app
   .listen({

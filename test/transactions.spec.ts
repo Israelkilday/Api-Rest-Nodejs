@@ -78,7 +78,7 @@ describe("Transactions routes", () => {
     const transactionsId = listTransactionsResponse.body.transactions[0].id;
 
     const getTransactionsResponse = await request(app.server)
-      .get(`/transactions${transactionsId}`)
+      .get(`/transactions/${transactionsId}`)
       .set("Cookie", cookies)
       .expect(200);
 

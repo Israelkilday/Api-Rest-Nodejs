@@ -119,7 +119,7 @@ describe("Transactions routes", () => {
       .set("Cookie", cookies)
       .expect(200);
 
-    expect(sumaryResponse.body.summary).toEqual({
+    expect(sumaryResponse.body).toEqual({
       amount: 3000,
     });
   });

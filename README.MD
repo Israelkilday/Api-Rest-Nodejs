@@ -49,6 +49,7 @@ Testes completos para todas as rotas foram implementados com:
 
 ## 📁 Estrutura do Projeto
 
+```env
 src/
 ├── app.ts # Instância principal do Fastify
 ├── routes/
@@ -60,7 +61,7 @@ src/
 
 test/
 └── transactions.spec.ts # Testes automatizados das rotas
-
+```
 
 # REQUISITOS DA APLICAÇÃO
 

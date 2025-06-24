@@ -77,7 +77,7 @@ npm run knex migrate:latest
 # Inicie o servidor em modo dev
 npm run dev
 
-
+```
 # REQUISITOS DA APLICAÇÃO
 
 # RF

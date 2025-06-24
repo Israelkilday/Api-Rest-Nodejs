@@ -133,7 +133,6 @@ export async function down(knex: Knex): Promise<void> {
 }
 ```
 
-
 ## 🤝 Contribuição
 
 Se você deseja contribuir com este projeto, siga estas etapas:
@@ -142,41 +141,36 @@ Se você deseja contribuir com este projeto, siga estas etapas:
 
 2. Crie uma branch para sua contribuição:
 
-   ```shell
+   ```bash
    git checkout -b minha-contribuicao
 
    ```
 
 3. Faça suas alterações e commit:
 
-   ```shell
+   ```bash
    git commit -m 'Minha contribuição'
 
    ```
 
 4. Envie sua branch:
 
-   ```shell
+   ```bash
     git push origin minha-contribuicao
 
    ```
 
 5. Abra uma solicitação pull. 
 
+## 🧠 Autor
 
+israel.kilday@yahoo.com.br
 
-# REQUISITOS DA APLICAÇÃO
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/israel-kilday-machado-de-souza-801482230) <a href="mailto:israelkilday27@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+</a>
 
-# RF
+### Obrigado por visitar meu projeto! 👋
 
-- [x] O usuário deve poder criar uma nova transação;
-- [x] O usuário deve poder obter um resumo da conta;
-- [x] O usuário deve poder listar todas as tarnsações;
-- [x] O usuário deve poder visualizar uma transação única;
-
-# RNF
-
-- [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtraira;
-- [x] Deve ser possível identificarmos o usuário entre as requisições;
-- [x] O usuário só pode visualizar transações o qual ele criou;
+ <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 

@@ -9,13 +9,9 @@
 
 > Uma API RESTful para controle de transações financeiras, construída com Fastify, TypeScript e SQLite.
 
----
-
 ## 📌 Descrição
 
 Esta aplicação permite que usuários criem, listem, visualizem e resumam transações financeiras (crédito e débito). As transações são armazenadas em sessões únicas, identificadas via cookies, garantindo isolamento e segurança sem a necessidade de autenticação.
-
----
 
 ## 🚀 Funcionalidades
 
@@ -23,8 +19,6 @@ Esta aplicação permite que usuários criem, listem, visualizem e resumam trans
 - Listar todas as transações da sessão atual
 - Buscar uma transação específica por ID
 - Gerar um resumo do saldo total da sessão
-
----
 
 ## 🧪 Testes Automatizados
 
@@ -34,8 +28,6 @@ Testes completos para todas as rotas foram implementados com:
 - **Supertest** – para simulação de requisições HTTP
 - Reset do banco de dados antes de cada teste com comandos do Knex
 
----
-
 ## 🛠️ Principais tecnologias e ferramentas
 
 - [Fastify](https://fastify.dev/)
@@ -44,8 +36,6 @@ Testes completos para todas as rotas foram implementados com:
 - [SQLite](https://www.sqlite.org/index.html)
 - [Zod](https://zod.dev/) – validação de dados
 - [Vitest](https://vitest.dev/) + [Supertest](https://github.com/visionmedia/supertest)
-
----
 
 ## 📁 Estrutura do Projeto
 
@@ -62,8 +52,6 @@ src/
 test/
 └── transactions.spec.ts # Testes automatizados das rotas
 ```
-
----
 
 ## ⚙️ Como executar
 

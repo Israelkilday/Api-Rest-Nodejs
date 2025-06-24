@@ -36,7 +36,7 @@ Testes completos para todas as rotas foram implementados com:
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 🛠️ Principais tecnologias e ferramentas
 
 - [Fastify](https://fastify.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -49,7 +49,17 @@ Testes completos para todas as rotas foram implementados com:
 
 ## 📁 Estrutura do Projeto
 
+src/
+├── app.ts # Instância principal do Fastify
+├── routes/
+│ └── transactions.ts # Rotas de transações (CRUD + resumo)
+├── database.ts # Configuração do banco via Knex
+├── env.ts # Variáveis de ambiente
+└── middlewares/
+└── check-session-id.ts # Verificação da sessão via cookies
 
+test/
+└── transactions.spec.ts # Testes automatizados das rotas
 
 
 # REQUISITOS DA APLICAÇÃO

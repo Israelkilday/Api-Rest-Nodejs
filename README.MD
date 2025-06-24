@@ -63,6 +63,21 @@ test/
 └── transactions.spec.ts # Testes automatizados das rotas
 ```
 
+---
+
+## ⚙️ Como executar
+
+```bash
+# Instale as dependências
+npm install
+
+# Rode as migrations
+npm run knex migrate:latest
+
+# Inicie o servidor em modo dev
+npm run dev
+
+
 # REQUISITOS DA APLICAÇÃO
 
 # RF

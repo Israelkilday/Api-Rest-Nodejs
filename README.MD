@@ -80,10 +80,22 @@ npm run dev
 A API estará disponível em http://localhost:3333.
 
 ```
-# 🧪 Rodando os testes
+## 🧪 Rodando os testes
+
+```
+bash
 
 npm test
+```
 
+Durante os testes, o banco é resetado a cada teste com:
+
+```
+bash
+
+npm run knex migrate:rollback --all
+npm run knex migrate:latest
+```
 
 # REQUISITOS DA APLICAÇÃO
 

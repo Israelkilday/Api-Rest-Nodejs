@@ -1,12 +1,4 @@
-# RESTful Transaction API
-
 <a name="readme-top"></a>
-
-<div align="center"><br>
-
-API RESTful desenvolvida com Fastify, TypeScript e SQLite, focada no controle de transações financeiras. Permite registrar, listar, visualizar e resumir transações de forma segura por meio de sessões com cookies.
-
- </div>
 
 # RESTful-Transaction-API
 

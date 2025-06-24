@@ -77,7 +77,14 @@ npm run knex migrate:latest
 # Inicie o servidor em modo dev
 npm run dev
 
+A API estará disponível em http://localhost:3333.
+
 ```
+# 🧪 Rodando os testes
+
+npm test
+
+
 # REQUISITOS DA APLICAÇÃO
 
 # RF

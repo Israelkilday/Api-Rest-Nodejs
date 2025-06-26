@@ -20,7 +20,7 @@ Esta aplicação permite que usuários criem, listem, visualizem e resumam trans
 - Buscar uma transação específica por ID
 - Gerar um resumo do saldo total da sessão
 
-## 🧪 Testes Automatizados
+## 🧪 **Testes automatizados end-to-end (E2E)** focados no backend.
 
 Testes completos para todas as rotas foram implementados com:
 

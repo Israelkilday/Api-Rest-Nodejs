@@ -30,12 +30,14 @@ Testes completos para todas as rotas foram implementados com:
 
 ## 🛠️ Principais tecnologias e ferramentas
 
+- [**Node.js**](https://nodejs.org/) 
 - [Fastify](https://fastify.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Knex.js](https://knexjs.org/)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Zod](https://zod.dev/) – validação de dados
 - [Vitest](https://vitest.dev/) + [Supertest](https://github.com/visionmedia/supertest)
+- [**ESLint**](https://eslint.org/) 
 
 ## 📁 Estrutura do Projeto
 

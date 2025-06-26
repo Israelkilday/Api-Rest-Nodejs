@@ -7,7 +7,7 @@
 ![Badge](https://img.shields.io/badge/SQLite-3-lightgrey)
 ![Badge](https://img.shields.io/badge/Tested%20with-Vitest-purple)
 
-> Uma API RESTful para controle de transações financeiras, construída com Fastify, TypeScript e SQLite.
+> UMA API RESTFUL PARA CONTROLE DE TRANSAÇÕES FINANCEIRAS, CONSTRUÍDA COM FASTIFY, TYPESCRIPT E SQLITE.
 
 ## 📌 Descrição
 
